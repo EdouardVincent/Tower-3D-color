@@ -64,4 +64,3 @@ for i in range(intervals+1) :
             rs.ObjectColor(shape,(255/intervals*i, 255-(255/intervals)*j,255/(j*intervals)))
             mat_index = rs.AddMaterialToObject(shape)
             rs.MaterialColor(mat_index, (255/intervals*i, 255-(255/intervals)*j,255/(j*intervals)))
-
